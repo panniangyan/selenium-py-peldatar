@@ -25,7 +25,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest
         if [ -f /testproject/requirements.txt ]; then pip install -r /testproject/requirements.txt; fi
-        
+        pip install allure-pytest
+
     - name: Test with pytest
       run: |
         pytest --alluredir=allure-results
