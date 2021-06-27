@@ -25,4 +25,4 @@ except:
 
 
 time.sleep(2)
-browser.close()
+browser.quit()
