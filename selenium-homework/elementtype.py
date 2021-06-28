@@ -1,4 +1,4 @@
-#Készíts egy Python alkalmazást ami selenium-ot használ.
+# Készíts egy Python alkalmazást ami selenium-ot használ.
 # Indítsd el lokálisan a selenium-py-peldatar alkalmazást.
 # A program töltse be a példatárból az http://localhost:9999/trickyelements.html oldalt.
 # Használj id lokátort és keressd ki az elemenekt egyesével.
@@ -14,21 +14,20 @@ browser = webdriver.Chrome(PATH)
 browser.maximize_window()
 browser.get(URL)
 
-i=1
+i = 1
 while i <= 5:
     elem_id = browser.find_element_by_id(f'element{i}')
-    if type(elem_id == "onclick"):
+    if elem_id.tag_name == "button":
         elem_id.click()
         result = browser.find_element_by_id("result")
         if result.text == f"{elem_id.text} was clicked":
-            print(result.text)
+            print("Első button:",result.text)
             break
         else:
-            print (elem_id,": hibás szöveg.")
+            print(f"element{i}: hibás szöveg.")
     else:
-        print(elem_id," gomb nem létezik.")
+        print(f"element{i}: gomb nem létezik.")
     i = i + 1
 
-
-#time.sleep(2)
-#browser.quit()
+# time.sleep(2)
+# browser.quit()
