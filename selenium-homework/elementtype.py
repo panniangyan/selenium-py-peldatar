@@ -17,6 +17,7 @@ browser.get(URL)
 i = 1
 while i <= 5:
     elem_id = browser.find_element_by_id(f'element{i}')
+
     if elem_id.tag_name == "button":
         elem_id.click()
         result = browser.find_element_by_id("result")

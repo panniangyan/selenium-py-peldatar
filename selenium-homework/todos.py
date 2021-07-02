@@ -9,7 +9,7 @@
 from selenium import webdriver
 
 PATH = "C:\\Windows\chromedriver.exe"
-URL = ("http://localhost:9999/todo.html")
+URL = "http://localhost:9999/todo.html"
 
 browser = webdriver.Chrome(PATH)
 browser.maximize_window()
