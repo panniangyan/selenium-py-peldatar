@@ -10,7 +10,7 @@
 import time
 from selenium import webdriver
 
-PATH = "C:\\Windows\chromedriver.exe"
+PATH = "/usr/bin/chromedriver"
 URL = ("https://progmasters.hu/")
 
 browser = webdriver.Chrome(PATH)

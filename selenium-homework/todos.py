@@ -8,7 +8,7 @@
 
 from selenium import webdriver
 
-PATH = "C:\\Windows\chromedriver.exe"
+PATH = "/usr/bin/chromedriver"
 URL = "http://localhost:9999/todo.html"
 
 browser = webdriver.Chrome(PATH)
