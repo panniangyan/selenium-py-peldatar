@@ -7,7 +7,6 @@
 # Minden link egy új sorba kerüljön.
 # A kimenetre írd ki hány linket találtál
 
-from selenium import webdriver
 
 from selenium import webdriver
 
@@ -39,4 +38,4 @@ except:
     print("Something went wrong")
 
 finally:
-    browser.close()
+    browser.quit()
