@@ -3,5 +3,4 @@
 # hanem minden sort azonnal kiírsz!
 
 with open('adat.txt', 'r') as adat:
-    for line in adat:
-        print(adat.read(), end='')
+    print(adat.read().replace("\n", " "))
