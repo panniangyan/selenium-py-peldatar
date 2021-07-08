@@ -7,28 +7,33 @@
 import time
 from selenium import webdriver
 
-PATH = "C:\\Windows\chromedriver.exe"
+PATH = "/usr/bin/chromedriver"
 URL = ("http://localhost:9999/trickyelements.html")
 
 browser = webdriver.Chrome(PATH)
 browser.maximize_window()
 browser.get(URL)
 
-i = 1
-while i <= 5:
-    elem_id = browser.find_element_by_id(f'element{i}')
+try:
+    i = 1
+    while i <= 5:
+        elem_id = browser.find_element_by_id(f'element{i}')
 
-    if elem_id.tag_name == "button":
-        elem_id.click()
-        result = browser.find_element_by_id("result")
-        if result.text == f"{elem_id.text} was clicked":
-            print("Első button:",result.text)
-            break
+        if elem_id.tag_name == "button":
+            elem_id.click()
+            result = browser.find_element_by_id("result")
+            if result.text == f"{elem_id.text} was clicked":
+                print("Első button:", result.text)
+                break
+            else:
+                print(f"element{i}: hibás szöveg.")
         else:
-            print(f"element{i}: hibás szöveg.")
-    else:
-        print(f"element{i}: gomb nem létezik.")
-    i = i + 1
+            print(f"element{i}: gomb nem létezik.")
+        i = i + 1
 
-# time.sleep(2)
-# browser.quit()
+except:
+    print("Something went wrong")
+
+finally:
+    time.sleep(2)
+    browser.quit()
