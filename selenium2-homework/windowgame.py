@@ -33,6 +33,7 @@ for i in range(100):
         print(browser.find_element_by_xpath('//*[@id="numberOfGuesses"]').text)
         break
 
-
+browser.close()
+browser.quit()
 
 
