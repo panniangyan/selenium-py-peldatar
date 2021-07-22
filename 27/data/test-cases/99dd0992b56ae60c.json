@@ -1,0 +1,217 @@
+{
+  "uid" : "99dd0992b56ae60c",
+  "name" : "test_add_negative",
+  "fullName" : "testproject.test_mymath#test_add_negative",
+  "historyId" : "753cdf21aa3257d3e2249d83346a13e6",
+  "time" : {
+    "start" : 1626915693902,
+    "stop" : 1626915693903,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testproject"
+  }, {
+    "name" : "suite",
+    "value" : "test_mymath"
+  }, {
+    "name" : "host",
+    "value" : "fv-az81-15"
+  }, {
+    "name" : "thread",
+    "value" : "3337-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testproject.test_mymath"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 18,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "7d0e22fb0dd7df85",
+        "reportUrl" : "https://panniangyan.github.io/selenium-py-peldatar/26//#testresult/7d0e22fb0dd7df85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626909746347,
+          "stop" : 1626909746347,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "41e11704da9f71a8",
+        "reportUrl" : "https://panniangyan.github.io/selenium-py-peldatar/25//#testresult/41e11704da9f71a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626906249965,
+          "stop" : 1626906249965,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2be0a1a15c085b45",
+        "reportUrl" : "https://panniangyan.github.io/selenium-py-peldatar/24//#testresult/2be0a1a15c085b45",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626738033297,
+          "stop" : 1626738033297,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e427f0fcb4818dd7",
+        "reportUrl" : "https://panniangyan.github.io/selenium-py-peldatar/23//#testresult/e427f0fcb4818dd7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626730717814,
+          "stop" : 1626730717814,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "45117122fa39e38e",
+        "reportUrl" : "https://panniangyan.github.io/selenium-py-peldatar/22//#testresult/45117122fa39e38e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626648002087,
+          "stop" : 1626648002088,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "53a31e598eef2267",
+        "reportUrl" : "https://panniangyan.github.io/selenium-py-peldatar/21//#testresult/53a31e598eef2267",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626565472388,
+          "stop" : 1626565472388,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cde4dd537714c91c",
+        "reportUrl" : "https://panniangyan.github.io/selenium-py-peldatar/20//#testresult/cde4dd537714c91c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626563527692,
+          "stop" : 1626563527692,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5d7b50b325c59c29",
+        "reportUrl" : "https://panniangyan.github.io/selenium-py-peldatar/19//#testresult/5d7b50b325c59c29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626541381273,
+          "stop" : 1626541381273,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ea3a11ad855658a5",
+        "reportUrl" : "https://panniangyan.github.io/selenium-py-peldatar/18//#testresult/ea3a11ad855658a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626539215886,
+          "stop" : 1626539215887,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ddd5ca869b3cdb5d",
+        "reportUrl" : "https://panniangyan.github.io/selenium-py-peldatar/17//#testresult/ddd5ca869b3cdb5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626536690169,
+          "stop" : 1626536690169,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c8e3066fecc7b9c1",
+        "reportUrl" : "https://panniangyan.github.io/selenium-py-peldatar/16//#testresult/c8e3066fecc7b9c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625786576155,
+          "stop" : 1625786576155,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b8d7dfa349e662b5",
+        "reportUrl" : "https://panniangyan.github.io/selenium-py-peldatar/15//#testresult/b8d7dfa349e662b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625786346791,
+          "stop" : 1625786346791,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1cb8b94e6f52b664",
+        "reportUrl" : "https://panniangyan.github.io/selenium-py-peldatar/14//#testresult/1cb8b94e6f52b664",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625786297896,
+          "stop" : 1625786297896,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1331aa5b3f0e70d1",
+        "reportUrl" : "https://panniangyan.github.io/selenium-py-peldatar/13//#testresult/1331aa5b3f0e70d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625783227764,
+          "stop" : 1625783227765,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "4fce52390981a9b0",
+        "reportUrl" : "https://panniangyan.github.io/selenium-py-peldatar/12//#testresult/4fce52390981a9b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625702076134,
+          "stop" : 1625702076134,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5d9cced4e7c1bee",
+        "reportUrl" : "https://panniangyan.github.io/selenium-py-peldatar/11//#testresult/5d9cced4e7c1bee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625556961851,
+          "stop" : 1625556961851,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a1968ba7eb1c4f7d",
+        "reportUrl" : "https://panniangyan.github.io/selenium-py-peldatar/10//#testresult/a1968ba7eb1c4f7d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623578527909,
+          "stop" : 1623578527909,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "99dd0992b56ae60c.json",
+  "parameterValues" : [ ]
+}
