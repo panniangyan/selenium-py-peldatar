@@ -15,6 +15,12 @@ def drag_drop_id_todo(my_source):
     browser.execute_script(JS_DRAG_DROP, source, target)
 
 
+def drag_drop_id_doing(my_source):
+    source = browser.find_element_by_id(f'{my_source}')
+    target = browser.find_element_by_id('Doing')
+    browser.execute_script(JS_DRAG_DROP, source, target)
+
+
 def drag_drop_id_done(my_source):
     source = browser.find_element_by_id(f'{my_source}')
     target = browser.find_element_by_id('Done')
@@ -31,15 +37,18 @@ cwd = getcwd()
 JS_DRAG_DROP = open(cwd + '/dnd.js', 'r').read()
 
 
-list_elements = ['Pizza', 'Tacos', 'BBQ', 'Burgers']
+list_elements = ('Pizza', 'Tacos', 'BBQ', 'Burgers')
 for i in list_elements:
-    drag_drop_id_todo(i)
+    drag_drop_id_doing(i)
 
+browser.implicitly_wait(5)
+
+#time.sleep(3)
 
 list_elements.append('Macaroni')
 for i in list_elements:
     print(i)
-    drag_drop_id_done(i)
+#    drag_drop_id_done(i)
 
 browser.implicitly_wait(5)
 
